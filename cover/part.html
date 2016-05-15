@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>ACI Test</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
+    <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+    <link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+  <script src="jQueryAssets/jquery-1.11.1.min.js"></script><!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+<div class="inner"><span class="inner"><img src="ACI-horiz-white-CMYK.png" alt="" width="300" height="50" class="img-rounded"/></span>
+          <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+          </nav>
+            </div>
+<div>  </div>
+<div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60% Complete</span></div>
+        
+      </div>
+            <div>
+                           <label for="time">Time:</label>
+              <input type="time" name="time" id="time">
+              &nbsp;</div>
+            <div>            </div>
+          </div>
+<br>
+
+          <div class="inner cover">
+            <h1 class="cover-heading
+            "><br><br><br><br>Is the following code correct?</h1>
+            <p class="lead">import socket UDP_IP = '127.0.0.1' </p>
+            <p class="lead">UDP_PORT = '80' </p>
+            <p class="lead">MESSAGE = '1' </p>
+            <p class="lead">sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) </p>
+            <p class="lead">sock.sendto (UDP_IP, UDP_PORT) </p>
+            <p class="lead">sock.bind(MESSAGE,(UDP_IP, UDP_PORT))</p>
+            <p class="lead"> while True: </p>
+            <p class="lead">data, addr = sock.recvfrom(bytes(1024)) </p>
+            <p class="lead">print (MESSAGE , data) </p>
+            <div class="btn-toolbar" role="toolbar">
+              <div class="btn-group" role="group"> </div>
+              <div class="btn-group" role="group"> </div>
+            </div>
+            <p class="lead">
+              <button type="button" class="btn btn-danger">Wrong</button>
+              <button type="button" class="btn btn-warning">Marked</button>
+              <button type="button" class="btn btn-success"> Right</button>
+              <button type="button" class="btn btn-info">Selected</button>
+              <button type="button" class="btn btn-primary">Other</button>
+              <button type="button" class="btn btn-default">Yes</button>
+              <button type="button" class="btn btn-default">No</button>
+            </p>
+            <div>&nbsp;</div>
+          </div>
+
+          <div class="mastfoot"> </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  <script type="text/javascript">
+$(function() {
+	$( "#Progressbar1" ).progressbar(); 
+});
+  </script>
+  </body>
+</html>
